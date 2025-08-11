@@ -1,0 +1,47 @@
+.div-about-me {
+    background-color: rgba(0, 0, 0, 0.88);
+    text-align: center;
+    min-height: 80vh;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 2rem 1rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.about-me-title {
+    font-size: 2em;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: yellow;
+    font-family: monospace;
+}
+
+.about-me-text {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.5;
+    word-spacing: 8px;
+}
+
+
+@media (max-width: 767px) {
+    .div-about-me {
+        min-height: 1vh;
+    }
+
+    .about-me-text {
+        width: 90%;
+        font-size: 1.3em;
+    }
+}
+
+
