@@ -71,6 +71,7 @@
 }
 
 @media (min-width: 768px) {
+
   .timeline {
     flex-direction: row;
     gap: 4rem;
@@ -82,5 +83,16 @@
     padding-left: 0;
     padding-top: 2.5rem;
     flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .educationSection {
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .educationSection h2{
+    font-size: 22px;
   }
 }

@@ -8,7 +8,7 @@ export default function CardsIcons() {
         <>
             <div className={styles["card-container"]}>
                 <div className={styles["card"]}>
-                    <h3>Front-end</h3>
+                    <p className={styles["text-title"]}>Front-end</p>
                     <div className={styles["icon-grid"]}>
                         <DiJsBadge style={{ color: "#F7DF1E" }}/>
                         <DiHtml5 style={{ color: "#E34F26" }}/>
@@ -19,7 +19,7 @@ export default function CardsIcons() {
                     </div>
                 </div>
                 <div className={styles["card"]}>
-                    <h3>Back-end</h3>
+                    <p className={styles["text-title"]}>Back-end</p>
                     <div className={styles["icon-grid"]}>
                         <DiNodejs style={{ color: "#339933" }}/>
                         <SiPostgresql style={{ color: "#336791" }}/>
@@ -28,7 +28,7 @@ export default function CardsIcons() {
                     </div>
                 </div>
                 <div className={styles["card"]}>
-                    <h3>Tecnologias</h3>
+                    <p className={styles["text-title"]}>Tecnologias</p>
                     <div className={styles["icon-grid"]}>
                         <DiVisualstudio style={{ color: "#2f8cc9ff" }}/>
                         <SiPostman style={{ color: "#FF6C37" }}/>
