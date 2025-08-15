@@ -21,7 +21,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function Home() {
   return (
-    <>
+    <>   
       <div className={styles['div-general']}>
         <div className={styles['div-img']}>
           <Image src="/buhoport.svg" alt="Imagen del búho" className={styles["owl-image"]} width={300} height={230} />

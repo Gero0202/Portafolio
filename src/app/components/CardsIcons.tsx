@@ -1,6 +1,7 @@
 import styles from "@/app/styles/cardsIcon.module.css"
 import { DiJsBadge, DiHtml5, DiCss3, DiReact, DiVisualstudio, DiNodejs } from "react-icons/di"
 import { SiPostgresql, SiVercel, SiExpress ,SiPostman, SiNextdotjs, SiMongodb, SiVite, SiRender, SiSupabase   } from "react-icons/si"
+import { FaGitAlt } from "react-icons/fa";
 
 
 export default function CardsIcons() {
@@ -35,6 +36,7 @@ export default function CardsIcons() {
                         <SiVercel style={{ color: "#ffffffff" }} />
                         <SiRender style={{ color: "#ee35ffff" }}/>
                         <SiSupabase style={{ color: "#3ECF8E" }}/> 
+                        <FaGitAlt style={{ color: "#F05133" }}/>
 
                     </div>
                 </div>

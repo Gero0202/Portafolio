@@ -6,6 +6,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Geronimo Tortosa",
   description: "Bienvenido a mi portafolio",
+  icons:{
+    icon: "/buhoport.svg"
+  }
 };
 
 export default function RootLayout({
