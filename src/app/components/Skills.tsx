@@ -1,12 +1,18 @@
 import styles from "@/app/styles/skills.module.css"
 import { MdSchool } from 'react-icons/md';
+import { Space_Grotesk } from "next/font/google";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'], weight: ['400', '500', '600']
+})
+
 
 export default function Skills() {
     return (
 
 
         <div className={styles.educationSection}>
-            <h2>Formacion y crecimiento profesional <MdSchool /></h2>
+            <h2 className={spaceGrotesk.className}>Formacion y crecimiento profesional <MdSchool /></h2>
 
             <div className={styles.timeline}>
                 <div className={styles.timelineItem}>

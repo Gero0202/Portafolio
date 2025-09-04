@@ -1,14 +1,42 @@
 import styles from "@/app/styles/proyects.module.css"
 import { LuExternalLink } from "react-icons/lu";
 import { IoCodeSlash } from "react-icons/io5";
+import { Space_Grotesk } from "next/font/google";
+
+const spaceGrotesk = Space_Grotesk({
+    subsets: ['latin'], weight: ['400', '500', '600']
+})
 
 export default function Proyects() {
     return (
         <>
             <div className={styles['div-general-pryects']}>
-                <h2>Proyectos</h2>
+                <h2 className={spaceGrotesk.className}>PROYECTOS</h2>
 
-                <h3>Full-Stack</h3>
+                <h3 className={spaceGrotesk.className}>Freelance</h3>
+
+                <div className={styles["cards-proyects"]}>
+                    <div className={styles["card-image"]}>
+                        <img src="/capturahome.png" alt="Proyecto TuFit" />
+                    </div>
+                    <div className={styles["card-content"]}>
+                        <h3>Tu-Fit</h3>
+                        <span className={styles["card-subtitle"]}>E-commerce</span>
+                        <p>
+                            Diseñé y desarrollé la página web de <a className={styles["enlace"]} href="https://www.instagram.com/tufit.laplata/">TU-FIT</a> utilizando Next.js, con foco en performance, SEO y una interfaz
+                            responsive adaptada a todo tipo de dispositivos. El sitio muestra la propuesta de valor del negocio y facilita
+                            la conexión con sus clientes de manera profesional y atractiva.
+                        </p>
+                       
+
+                        <div className={styles["card-links"]}>
+                            <a href="https://www.tu-fit.com/"><LuExternalLink /> Ver Proyecto</a>
+                            <a href="https://github.com/Gero0202/tu-fit"><IoCodeSlash />Codigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 className={spaceGrotesk.className}>Full-Stack</h3>
                 <div className={styles["card-container-proyect"]}>
 
                     <div className={styles["cards-proyects"]}>
@@ -59,7 +87,7 @@ export default function Proyects() {
                         </div>
                     </div>
 
-                    <h3>Frontend UX/UI</h3>
+                    <h3 className={spaceGrotesk.className}>Frontend UX/UI</h3>
 
                     {/* Burger labs */}
 
@@ -94,8 +122,8 @@ export default function Proyects() {
                             <h3>React-Buttons</h3>
                             <span className={styles["card-subtitle"]}>Botones en CSS listos para usar</span>
                             <p>
-                                Coleccion de botones modernos hechos con CSS, listos para copiar y pegar en tus proyectos. 
-                                Incluye diferentes estilos, animaciones y variantes, faciles de integrar sin necesidad de dependencias extra. 
+                                Coleccion de botones modernos hechos con CSS, listos para copiar y pegar en tus proyectos.
+                                Incluye diferentes estilos, animaciones y variantes, faciles de integrar sin necesidad de dependencias extra.
                                 Ideal para dar estilo rapido a tu aplicacion sin complicaciones.
                             </p>
 

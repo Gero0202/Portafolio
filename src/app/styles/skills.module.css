@@ -74,13 +74,13 @@
 
   .timeline {
     flex-direction: row;
-    gap: 4rem;
+    gap: 3rem;
   }
 
   .timelineItem {
     border-left: none;
     border-top: 3px solid #caad1b;
-    padding-left: 0;
+    padding-left: 1rem;
     padding-top: 2.5rem;
     flex: 1;
   }
@@ -90,9 +90,21 @@
   .educationSection {
     width: 100%;
     border-radius: 0%;
+     padding: 3rem 0.1rem;
   }
 
   .educationSection h2{
     font-size: 22px;
   }
+
+  .timelineContent h3{
+    font-size: 1.3em;
+  }
+
+  .timelineItem{
+     padding-left: 0.7rem;
+    }
+   .timelineContent{
+    padding: 2rem 1rem;
+   } 
 }
