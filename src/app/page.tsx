@@ -21,7 +21,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function Home() {
   return (
-    <>   
+    <>
       <div className={styles['div-general']}>
         <div className={styles['div-img']}>
           <Image src="/buhoport.svg" alt="Imagen del búho" className={styles["owl-image"]} width={300} height={230} />
@@ -30,7 +30,7 @@ export default function Home() {
         <div className={styles['div-texto-princial']}>
           <p className={`${righteous.className} ${styles['nombre-clase']}`}>Geronimo Tortosa</p>
           <p className={`${spaceGrotesk.className} ${styles['nombre-fullstack']}`}>Full Stack Web Developer</p>
-          <p className={`${spaceGrotesk.className} ${styles['descripcion-inicial']}`}>No soy un experto, pero ya rompi lo suficiente como para no asustarme cuando algo se rompe.</p>
+          <p className={`${spaceGrotesk.className} ${styles['descripcion-inicial']}`}>Desarrollador Full Stack con experiencia en el diseño, desarrollo e implementación de aplicaciones web modernas.</p>
           <div className={styles['div-iconos-principal']}>
             <a
               href="https://github.com/Gero0202"
