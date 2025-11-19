@@ -50,8 +50,8 @@ export default function Home() {
             </a>
 
             <a
-              href="/Geronimo_Tortosa-CV.pdf"
-              download="Geronimo-Tortosa-CV.pdf"
+              href="/GeronimoTortosaCV.pdf"
+              download="GeronimoTortosa-CV.pdf"
               className={styles['btn-cv']}
             >
               Descargar CV

@@ -41,7 +41,23 @@ export default function Proyects() {
 
                  <div className={styles["card-container-proyect"]}>
 
-                    {/* Burger labs */}
+                    <div className={styles["cards-proyects"]}>
+                        <div className={styles["card-image"]}>
+                            <img src="/personal-captura.png" alt="Proyecto cafe" />
+                        </div>
+                        <div className={styles["card-content"]}>
+                            <h3>Dr. Profesional - Medicina</h3>
+                            <span className={styles["card-subtitle"]}>Landing Profesional</span>
+                            <p>
+                               Landing page moderna creada para un médico especialista. El diseño prioriza la confianza y la claridad, combinando una estética minimalista, animaciones sutiles y una paleta cálida en tonos naranjas. Incluye secciones de servicios, trayectoria, áreas de especialización y contacto rápido para mejorar la comunicación con pacientes.
+                            </p>
+
+                            <div className={styles["card-links"]}>
+                                <a href="https://profesional-web-iota.vercel.app/"><LuExternalLink /> Ver Proyecto</a>
+                                <a href="https://github.com/Gero0202/profesionalModernWeb"><IoCodeSlash /> Codigo</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className={styles["cards-proyects"]}>
                         <div className={styles["card-image"]}>
