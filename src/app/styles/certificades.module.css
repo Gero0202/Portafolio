@@ -1,0 +1,50 @@
+.slider-container {
+  width: 70%; 
+  margin: 0 auto; 
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.slider-image {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  object-fit: contain;
+  border-radius: 10px; 
+  display: block;
+}
+
+.slick-dots li button:before {
+  color: #ffffff; 
+}
+
+/* --- MEDIA QUERY: TABLETS Y LARGOS (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  .slider-container {
+    width: 90%; 
+  }
+
+  .slider-image {
+    height: 450px;
+  }
+}
+
+/* --- MEDIA QUERY: MÓVILES (max-width: 768px) --- */
+@media (max-width: 768px) {
+  .slider-container {
+    width: 95%; 
+    padding: 15px; 
+    margin-top: 20px;
+  }
+
+  .slider-image {
+    width: 100%;
+    height: 300px; 
+    border-radius: 5px;
+    padding: 6px;
+  }
+  
+  .slick-dots li button:before {
+      color: #000000;
+  }
+}

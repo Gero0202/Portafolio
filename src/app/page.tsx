@@ -66,7 +66,6 @@ export default function Home() {
       <AboutMe />
       <CardsIcons />
       <Skills />
-
       <footer className={styles["footer"]}>
         <p>Creado por Geronimo Tortosa © 2025</p>
       </footer>

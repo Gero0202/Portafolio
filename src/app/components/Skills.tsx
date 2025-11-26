@@ -1,6 +1,7 @@
 import styles from "@/app/styles/skills.module.css"
 import { MdSchool } from 'react-icons/md';
 import { Space_Grotesk } from "next/font/google";
+import CenterMode from "./Certificados";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'], weight: ['400', '500', '600']
@@ -38,6 +39,8 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
+
+            <CenterMode/>
         </div>
     )
 }
