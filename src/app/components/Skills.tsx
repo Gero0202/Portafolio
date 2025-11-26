@@ -35,6 +35,7 @@ export default function Skills() {
                             <li><strong>TypeScript:</strong> Aplicacion de tipado estatico para mejorar la calidad del codigo, manejo de interfaces, enums y tipos condicionales para proyectos escalables y mantenibles.</li>
                             <li><strong>SQL:</strong> Diseño y modelado de bases de datos relacionales, creacion de consultas complejas, optimizacion y mantenimiento de integridad referencial.</li>
                             <li><strong>Git:</strong> Uso efectivo del control de versiones para gestion de proyectos y trabajo colaborativo mediante ramas, merges y resolucion de conflictos.</li>
+                             <li><strong>Mercado Pago:</strong> Implementación de <em>Checkout Pro</em> para integrar pagos online seguros, configurando preferencias, redirecciones y procesamiento completo del flujo de pago.</li>
                         </ul>
                     </div>
                 </div>
