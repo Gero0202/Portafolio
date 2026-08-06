@@ -40,6 +40,9 @@ export default function CardsIcons() {
                         <div className={styles["iconMp"]}>
                             <img src="./mercado-pago-icono.svg" alt="Icono personalizado" width={55} height={55} />
                         </div>
+                        <div className={styles["iconSap"]}>
+                            <img src="./sap-abap.jpg" alt="Icono personalizado" width={66} height={45} />
+                        </div>
                     </div>
                 </div>
             </div>

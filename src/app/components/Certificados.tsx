@@ -18,6 +18,7 @@ export default function SimpleSlider() {
 
   const images = [
     "./certificado1.png",
+    "./sap-certificado.png",
     "./backend1.png",
     "./backend2.png",
     "./backend3.png",

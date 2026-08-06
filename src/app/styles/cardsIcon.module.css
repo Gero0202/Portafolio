@@ -73,7 +73,7 @@
   margin-bottom: 20px;
 }
 
-.text-title{
+.text-title {
   font-size: 1.10em;
   font-weight: bold;
   margin-bottom: 20px;
@@ -98,13 +98,26 @@
   transform: scale(1.2)
 }
 
-.iconMp img{
-   transition: transform 0.3s ease-in-out;
+
+.iconMp img {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(10px);
 }
 
-.iconMp img:hover{
+.iconMp img:hover {
+  transform: scale(1.2) translateX(10px)
+}
+
+.iconSap img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.iconSap img:hover {
   transform: scale(1.2)
 }
+
+
 
 
 @media (max-width: 767px) {
@@ -132,7 +145,17 @@
     gap: 20px;
     font-size: 40px;
   }
-  .text-title{
+
+  .text-title {
     font-size: 20px;
+  }
+
+  .iconMp img {
+    transform: translateX(0);
+    transform: translateY(7);
+  }
+
+  .iconMp img:hover {
+    transform: scale(1.2) translateX(0px) 
   }
 }
