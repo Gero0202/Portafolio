@@ -21,7 +21,7 @@ export default function Proyects() {
                     </div>
                     <div className={styles["card-content"]}>
                         <h3>Tu-Fit</h3>
-                        <span className={styles["card-subtitle"]}>E-commerce</span>
+                        <span className={styles["card-subtitle"]}>Landing Page</span>
                         <p>
                             Diseñé y desarrollé la página web de <a className={styles["enlace"]} href="https://www.instagram.com/tufit.laplata/">TU-FIT</a> utilizando Next.js, con foco en performance, SEO y una interfaz
                             responsive adaptada a todo tipo de dispositivos. El sitio muestra la propuesta de valor del negocio y facilita
@@ -35,6 +35,60 @@ export default function Proyects() {
                         </div>
                     </div>
                 </div>
+
+
+
+                <h3 className={spaceGrotesk.className}>Full-Stack</h3>
+                <div className={styles["card-container-proyect"]}>
+
+                    <div className={styles["cards-proyects"]}>
+                        <div className={styles["card-image"]}>
+                            <img src="/looplife-captura.png" alt="Loop Life" />
+                        </div>
+
+                        <div className={styles["card-content"]}>
+                            <h3>Loop Life</h3>
+                            <span className={styles["card-subtitle"]}>Red social de musica</span>
+                            <p>
+                                LoopLife es una plataforma social para apasionados por la musica desarrollada con Next.js y TypeScript, utilizando PostgreSQL
+                                en Supabase para la gestion eficiente de datos.
+                                Implementa autenticacion y optimizacion de rendimiento, ofreciendo una experiencia fluida
+                                y escalable para compartir y descubrir loops musicales.
+                            </p>
+                            <div className={styles["card-links"]}>
+                                <a href="https://loop-life-pearl.vercel.app/"><LuExternalLink /> Ver Proyecto</a>
+                                <a href="https://github.com/Gero0202/LoopLife"><IoCodeSlash /> Codigo</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div className={styles["cards-proyects"]}>
+                        <div className={styles["card-image"]}>
+                            <img src="/rollingstore-captura.png" alt="Proyecto Dos" />
+                        </div>
+                        <div className={styles["card-content"]}>
+                            <h3>Rolling Store</h3>
+                            <span className={styles["card-subtitle"]}>E-commerce</span>
+                            <p>
+                                Rolling Store es una plataforma e-commerce desarrollada con Node.js, Express y MongoDB, utilizando Handlebars para el frontend.
+                                Permite gestionar productos, autenticar usuarios y ofrecer un flujo de compra agil en una arquitectura integrada de backend y
+                                frontend.
+                            </p>
+                            <p className={styles["card-note"]}>
+                                *El proyecto esta desplegado en Render (version gratuita), por lo que la carga inicial puede demorar unos segundos.
+                            </p>
+
+                            <div className={styles["card-links"]}>
+                                <a href="https://rolling-store.onrender.com/"><LuExternalLink /> Ver Proyecto</a>
+                                <a href="https://github.com/Gero0202/Rolling-store"><IoCodeSlash /> Codigo</a>
+                            </div>
+                        </div>
+                    </div>
+
 
 
                  <h3 className={spaceGrotesk.className}>Frontend UX/UI</h3>
@@ -122,56 +176,7 @@ export default function Proyects() {
 
                     </div>
 
-                <h3 className={spaceGrotesk.className}>Full-Stack</h3>
-                <div className={styles["card-container-proyect"]}>
-
-                    <div className={styles["cards-proyects"]}>
-                        <div className={styles["card-image"]}>
-                            <img src="/looplife-captura.png" alt="Loop Life" />
-                        </div>
-
-                        <div className={styles["card-content"]}>
-                            <h3>Loop Life</h3>
-                            <span className={styles["card-subtitle"]}>Red social de musica</span>
-                            <p>
-                                LoopLife es una plataforma social para apasionados por la musica desarrollada con Next.js y TypeScript, utilizando PostgreSQL
-                                en Supabase para la gestion eficiente de datos.
-                                Implementa autenticacion y optimizacion de rendimiento, ofreciendo una experiencia fluida
-                                y escalable para compartir y descubrir loops musicales.
-                            </p>
-                            <div className={styles["card-links"]}>
-                                <a href="https://loop-life-pearl.vercel.app/"><LuExternalLink /> Ver Proyecto</a>
-                                <a href="https://github.com/Gero0202/LoopLife"><IoCodeSlash /> Codigo</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div className={styles["cards-proyects"]}>
-                        <div className={styles["card-image"]}>
-                            <img src="/rollingstore-captura.png" alt="Proyecto Dos" />
-                        </div>
-                        <div className={styles["card-content"]}>
-                            <h3>Rolling Store</h3>
-                            <span className={styles["card-subtitle"]}>E-commerce</span>
-                            <p>
-                                Rolling Store es una plataforma e-commerce desarrollada con Node.js, Express y MongoDB, utilizando Handlebars para el frontend.
-                                Permite gestionar productos, autenticar usuarios y ofrecer un flujo de compra agil en una arquitectura integrada de backend y
-                                frontend.
-                            </p>
-                            <p className={styles["card-note"]}>
-                                *El proyecto esta desplegado en Render (version gratuita), por lo que la carga inicial puede demorar unos segundos.
-                            </p>
-
-                            <div className={styles["card-links"]}>
-                                <a href="https://rolling-store.onrender.com/"><LuExternalLink /> Ver Proyecto</a>
-                                <a href="https://github.com/Gero0202/Rolling-store"><IoCodeSlash /> Codigo</a>
-                            </div>
-                        </div>
-                    </div>
+                
 
                    
 
