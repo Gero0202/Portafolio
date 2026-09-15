@@ -15,6 +15,8 @@ export default function Proyects() {
 
                 <h3 className={spaceGrotesk.className}>Freelance</h3>
 
+                <div className={styles["card-container-proyect"]}>
+
                 <div className={styles["cards-proyects"]}>
                     <div className={styles["card-image"]}>
                         <img src="/capturahome.png" alt="Proyecto TuFit" />
@@ -36,6 +38,25 @@ export default function Proyects() {
                     </div>
                 </div>
 
+                <div className={styles["cards-proyects"]}>
+                    <div className={styles["card-image"]}>
+                        <img src="/invitacion-boda-screen.png" alt="Boda" />
+                    </div>
+                    <div className={styles["card-content"]}>
+                        <h3>Invitación de Boda & RSVP</h3>
+                        <span className={styles["card-subtitle"]}>Full Stack Application</span>
+                        <p>
+            Desarrollo de una plataforma web para la gestión integral de invitaciones y control de asistencia en tiempo real. Cuenta con animación fluida e interacción personalizada por token para los invitados, además de un Dashboard administrativo seguro para el control de confirmaciones.
+                        </p>
+                       
+
+                        <div className={styles["card-links"]}>
+                            <a href="https://invitacion-boda-demo-weld.vercel.app/admin/dashboard"><LuExternalLink /> Ver Proyecto</a>
+                            <a href="https://github.com/Gero0202/invitacion-boda-repo"><IoCodeSlash />Codigo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
                 <h3 className={spaceGrotesk.className}>Full-Stack</h3>
