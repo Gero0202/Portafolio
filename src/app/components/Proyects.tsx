@@ -56,6 +56,26 @@ export default function Proyects() {
                         </div>
                     </div>
                 </div>
+
+                 <div className={styles["cards-proyects"]}>
+                    <div className={styles["card-image"]}>
+                        <img src="/captura-latapera.png" alt="Tapera" />
+                    </div>
+                    <div className={styles["card-content"]}>
+                        <h3>La Tapera</h3>
+                        <span className={styles["card-subtitle"]}>Landing Page</span>
+                        <p>
+                            Diseñé y desarrollé la página web de La Taperia utilizando Next.js, con un diseño responsive y enfocado en ofrecer una experiencia clara y profesional. Además, integré el menú con Google Sheets para que el cliente pueda actualizar productos y precios directamente sin modificar el código.
+                        </p>
+                       
+
+                        <div className={styles["card-links"]}>
+                            <a href="https://latapera.vercel.app/"><LuExternalLink /> Ver Proyecto</a>
+                            <a href="https://github.com/Gero0202/latapera"><IoCodeSlash />Codigo</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
